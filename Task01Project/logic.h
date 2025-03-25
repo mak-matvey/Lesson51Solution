@@ -1,1 +1,1 @@
-#pragma once
+int get_factorial(int number);

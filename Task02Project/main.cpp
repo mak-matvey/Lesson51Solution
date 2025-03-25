@@ -4,12 +4,14 @@ using namespace std;
 
 int main()
 {
+
 	int number;
 
 	cout << "Input your number: ";
 	cin >> number;
 
-	cout << "Factorial of this number = " << get_factorial(number) << endl;
+	cout << "Fibonacci (" << number << "): " << get_fibo_number(number)
+		<< endl;
 
 	return 0;
 }
